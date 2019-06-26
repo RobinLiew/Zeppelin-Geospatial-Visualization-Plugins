@@ -14,9 +14,7 @@ Zeppelin Geospatial visualization for big data
 
 # 主要功能
 将zeppelin+spark提取的包含坐标信息的数据展示到表上，并根据相关需求画出轨迹，热力图等，
-以方便进行数据分析
-
-如下图，对用户导航的轨迹进行分析非常方便
+以方便进行数据分析。如下图，对用户导航的轨迹进行分析非常方便
 
 ![image](https://github.com/RobinLiew/Zeppelin-Geospatial-Visualization-Plugins/blob/master/pic/%E6%8F%90%E5%8F%96%E7%9A%84%E8%BD%A8%E8%BF%B9.png)
 
