@@ -1,0 +1,8 @@
+{
+  "type" : "VISUALIZATION",
+  "name" : "sogou-map-vis-geom",
+  "description" : "Geospatial visualization using the sogou map library",
+  "artifact" : "sogou-map-vis-geom@0.1.73",
+  "license" : "BSD-2-Clause",
+  "icon": "<i class='fa fa-globe' style='color:red'></i>"
+}

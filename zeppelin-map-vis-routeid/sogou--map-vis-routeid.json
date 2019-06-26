@@ -1,0 +1,8 @@
+{
+  "type" : "VISUALIZATION",
+  "name" : "sogou-map-vis-routeid",
+  "description" : "Geospatial visualization using the sogou map library",
+  "artifact" : "sogou-map-vis-routeid@0.1.13",
+  "license" : "BSD-2-Clause",
+  "icon": "<i class='fa fa-globe' style='color:blue'></i>"
+}

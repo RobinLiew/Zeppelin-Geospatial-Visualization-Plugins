@@ -1,0 +1,28 @@
+{
+  "name": "sogou-map-vis-routeid",
+  "description": "Geospatial visualization using the sogou map library.",
+  "author": "Robin Liew <liubin216051@sogou-inc.com>",
+  "version": "0.1.13",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "jq '{ type: .helium.type, name: .name, description: .description, artifact: (.name + \"@\"+ .version), license: .license, icon: .helium.icon}' package.json > sogou-map-vis-routeid.json",
+    "helium.dev": "jq --arg pwd `pwd` '{ type: .helium.type, name: .name, description: .description, artifact: $pwd, license: .license, icon: .helium.icon}' package.json > sogou-map-vis-routeid.json"
+  },
+  "keywords": [
+    "zeppelin",
+    "helium",
+    "visualization"
+  ],
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "zeppelin-tabledata": "*",
+    "zeppelin-vis": "*",
+	"ag-grid": "^14.2.0",
+    "jquery":"^3.3.1"
+  },
+  "helium": {
+    "type": "VISUALIZATION",
+    "icon": "<i class='fa fa-globe' style='color:blue'></i>"
+  }
+}
