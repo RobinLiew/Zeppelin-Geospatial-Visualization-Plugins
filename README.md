@@ -17,6 +17,7 @@ Zeppelin Geospatial visualization for big data
 以方便进行数据分析
 
 如下图，对用户导航的轨迹进行分析非常方便
+
 ![image](https://github.com/RobinLiew/Zeppelin-Geospatial-Visualization-Plugins/blob/master/pic/%E6%8F%90%E5%8F%96%E7%9A%84%E8%BD%A8%E8%BF%B9.png)
 
 # zeppelin可视化插件实例
